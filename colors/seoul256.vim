@@ -177,7 +177,7 @@ let s:light_bg_1 = min([s:light_bg + 1, 256])
 let s:light_bg_2 = min([s:light_bg + 2, 256])
 
 " Foreground colors
-let s:dark_fg = 252
+let s:dark_fg = 250
 let s:light_fg = 239
 
 function! s:hi(item, fg, bg)
@@ -209,7 +209,7 @@ call s:hi('LineNr', [101, 101], [s:dark_bg + 1, s:light_bg - 2])
 call s:hi('Visual', ['', ''], [23, 152])
 call s:hi('VisualNOS', ['', ''], [23, 152])
 
-call s:hi('Comment', [65, 65], ['', ''])
+call s:hi('Comment', [241, 241], ['', ''])
 call s:hi('Number', [222, 95], ['', ''])
 call s:hi('Float', [222, 95], ['', ''])
 call s:hi('Boolean', [103, 168], ['', ''])
@@ -272,7 +272,7 @@ call s:hi('ColorColumn', ['', ''], [s:dark_bg - 1, s:light_bg - 2])
 " hi CursorIM ctermfg=
 
 " set cursorline cursorcolumn
-call s:hi('CursorLine', ['', ''], [s:dark_bg - 1, s:light_bg - 1])
+call s:hi('CursorLine', ['', ''], [s:dark_bg + 1, s:light_bg - 1])
 call s:hi('CursorLineNr', [131, 131], [s:dark_bg - 1, s:light_bg - 1])
 call s:hi('CursorColumn', ['', ''], [s:dark_bg - 1, s:light_bg - 1])
 call s:hi('NormalFloat', ['', ''], [s:dark_bg - 1, s:light_bg - 1])
