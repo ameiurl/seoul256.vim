@@ -216,7 +216,7 @@ call s:hi('Boolean', [103, 168], ['', ''])
 call s:hi('String', [109, 30], ['', ''])
 call s:hi('Constant', [73, 23], ['', ''])
 call s:hi('Character', [174, 168], ['', ''])
-call s:hi('Delimiter', [137, 94], ['', ''])
+call s:hi('Delimiter', [250, 94], ['', ''])
 call s:hi('StringDelimiter', [137, 94], ['', ''])
 call s:hi('Statement', [108, 66], ['', ''])
 " case, default, etc.
